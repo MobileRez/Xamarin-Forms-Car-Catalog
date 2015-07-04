@@ -13,10 +13,6 @@ This app was created to show how Xamarin.Forms & Custom Renders work as well as 
 | LastUpdateDate | DateTime |
 
 #### Models Table
-ModelId int NOT NULL PRIMARY KEY,
-ModelName varchar(255),
-MakeId int,
-LastUpdateDate DateTime
 |   Column    |  Format  |
 |:-----------:|:--------:| 
 | ModelId (pk) |    int   |

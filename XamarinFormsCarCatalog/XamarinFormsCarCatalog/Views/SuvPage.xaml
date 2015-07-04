@@ -9,7 +9,7 @@
                    VerticalOptions="FillAndExpand">
 
         <Label FontSize="Medium"
-               Text="This is the Demo Home Page"
+               Text="This is the Demo Suv Page"
                LineBreakMode="WordWrap"/>
 
       </StackLayout>

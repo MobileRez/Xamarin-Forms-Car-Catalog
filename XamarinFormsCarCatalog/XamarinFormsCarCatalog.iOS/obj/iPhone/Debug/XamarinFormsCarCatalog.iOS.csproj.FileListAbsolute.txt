@@ -38,9 +38,6 @@ D:\XamarinDemos\XamarinFormsCarCatalog\XamarinFormsCarCatalog\XamarinFormsCarCat
 D:\XamarinDemos\XamarinFormsCarCatalog\XamarinFormsCarCatalog\XamarinFormsCarCatalog.iOS\obj\iPhone\Debug\Icon-Small.png
 D:\XamarinDemos\XamarinFormsCarCatalog\XamarinFormsCarCatalog\XamarinFormsCarCatalog.iOS\obj\iPhone\Debug\Icon-Small@2x.png
 D:\XamarinDemos\XamarinFormsCarCatalog\XamarinFormsCarCatalog\XamarinFormsCarCatalog.iOS\obj\iPhone\Debug\Icon-Small@3x.png
-D:\XamarinDemos\XamarinFormsCarCatalog\XamarinFormsCarCatalog\XamarinFormsCarCatalog.iOS\obj\iPhone\Debug\XamarinFormsCarCatalog.iOS.csprojResolveAssemblyReference.cache
-D:\XamarinDemos\XamarinFormsCarCatalog\XamarinFormsCarCatalog\XamarinFormsCarCatalog.iOS\obj\iPhone\Debug\XamarinFormsCarCatalogiOS.exe
-D:\XamarinDemos\XamarinFormsCarCatalog\XamarinFormsCarCatalog\XamarinFormsCarCatalog.iOS\obj\iPhone\Debug\XamarinFormsCarCatalogiOS.pdb
 D:\XamarinDemos\XamarinFormsCarCatalog\XamarinFormsCarCatalog\XamarinFormsCarCatalog.iOS\obj\iPhone\Debug\blog.png
 D:\XamarinDemos\XamarinFormsCarCatalog\XamarinFormsCarCatalog\XamarinFormsCarCatalog.iOS\obj\iPhone\Debug\blog@2x.png
 D:\XamarinDemos\XamarinFormsCarCatalog\XamarinFormsCarCatalog\XamarinFormsCarCatalog.iOS\obj\iPhone\Debug\slideout.png
@@ -51,3 +48,6 @@ D:\XamarinDemos\XamarinFormsCarCatalog\XamarinFormsCarCatalog\XamarinFormsCarCat
 D:\XamarinDemos\XamarinFormsCarCatalog\XamarinFormsCarCatalog\XamarinFormsCarCatalog.iOS\obj\iPhone\Debug\twitternav@2x.png
 D:\XamarinDemos\XamarinFormsCarCatalog\XamarinFormsCarCatalog\XamarinFormsCarCatalog.iOS\obj\iPhone\Debug\about.png
 D:\XamarinDemos\XamarinFormsCarCatalog\XamarinFormsCarCatalog\XamarinFormsCarCatalog.iOS\obj\iPhone\Debug\about@2x.png
+D:\XamarinDemos\XamarinFormsCarCatalog\XamarinFormsCarCatalog\XamarinFormsCarCatalog.iOS\obj\iPhone\Debug\XamarinFormsCarCatalog.iOS.csprojResolveAssemblyReference.cache
+D:\XamarinDemos\XamarinFormsCarCatalog\XamarinFormsCarCatalog\XamarinFormsCarCatalog.iOS\obj\iPhone\Debug\XamarinFormsCarCatalogiOS.exe
+D:\XamarinDemos\XamarinFormsCarCatalog\XamarinFormsCarCatalog\XamarinFormsCarCatalog.iOS\obj\iPhone\Debug\XamarinFormsCarCatalogiOS.pdb

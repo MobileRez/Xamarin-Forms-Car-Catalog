@@ -4,7 +4,6 @@ D:\XamarinDemos\XamarinFormsCarCatalog\XamarinFormsCarCatalog\XamarinFormsCarCat
 D:\XamarinDemos\XamarinFormsCarCatalog\XamarinFormsCarCatalog\XamarinFormsCarCatalog\bin\Debug\Xamarin.Forms.Xaml.dll
 D:\XamarinDemos\XamarinFormsCarCatalog\XamarinFormsCarCatalog\XamarinFormsCarCatalog\bin\Debug\Xamarin.Forms.Core.xml
 D:\XamarinDemos\XamarinFormsCarCatalog\XamarinFormsCarCatalog\XamarinFormsCarCatalog\bin\Debug\Xamarin.Forms.Xaml.xml
-D:\XamarinDemos\XamarinFormsCarCatalog\XamarinFormsCarCatalog\XamarinFormsCarCatalog\obj\Debug\XamarinFormsCarCatalog.csprojResolveAssemblyReference.cache
 D:\XamarinDemos\XamarinFormsCarCatalog\XamarinFormsCarCatalog\XamarinFormsCarCatalog\obj\Debug\CarPage.xaml.g.cs
 D:\XamarinDemos\XamarinFormsCarCatalog\XamarinFormsCarCatalog\XamarinFormsCarCatalog\obj\Debug\HomePage.xaml.g.cs
 D:\XamarinDemos\XamarinFormsCarCatalog\XamarinFormsCarCatalog\XamarinFormsCarCatalog\obj\Debug\TruckPage.xaml.g.cs

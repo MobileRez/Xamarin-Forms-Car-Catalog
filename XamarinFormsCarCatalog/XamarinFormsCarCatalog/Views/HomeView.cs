@@ -13,16 +13,16 @@ namespace XamarinFormsCarCatalog.Views
         {
             get { return BindingContext as HomeViewModel; }
         }
-        HomeMasterView master;
+        HomeMasterView _master;
         private Dictionary<MenuType, NavigationPage> pages;
         public HomeView()
         {
             pages = new Dictionary<MenuType, NavigationPage>();
             BindingContext = new HomeViewModel();
 
-            Master = master = new HomeMasterView(ViewModel);
+            Master = _master = new HomeMasterView(ViewModel);
 
-            var homeNav = new NavigationPage(master.PageSelection)
+            var homeNav = new NavigationPage(_master.PageSelection)
             {
                 BarBackgroundColor = Color.FromHex("#3498DB"),
                 BarTextColor = Color.White
@@ -31,7 +31,7 @@ namespace XamarinFormsCarCatalog.Views
 
             pages.Add(MenuType.Home, homeNav);
 
-            master.PageSelectionChanged = async menuType =>
+            _master.PageSelectionChanged = async menuType =>
             {
 
                 if (Detail != null && Device.OS == TargetPlatform.WinPhone)
@@ -46,7 +46,7 @@ namespace XamarinFormsCarCatalog.Views
                 }
                 else
                 {
-                    newPage = new NavigationPage(master.PageSelection)
+                    newPage = new NavigationPage(_master.PageSelection)
                     {
                         BarBackgroundColor = Color.FromHex("#3498DB"),
                         BarTextColor = Color.White
@@ -54,7 +54,7 @@ namespace XamarinFormsCarCatalog.Views
                     pages.Add(menuType, newPage);
                 }
                 Detail = newPage;
-                Detail.Title = master.PageSelection.Title;
+                Detail.Title = _master.PageSelection.Title;
                 if (Device.Idiom != TargetIdiom.Tablet)
                     IsPresented = false;
             };
@@ -112,9 +112,11 @@ namespace XamarinFormsCarCatalog.Views
             else
             {
                 cell = new DataTemplate(typeof(ListImageCell));
-                cell.SetBinding(TextCell.TextProperty, HomeViewModel.TitlePropertyName);
+                cell.SetBinding(TextCell.TextProperty, BaseViewModel.TitlePropertyName);
                 cell.SetBinding(ImageCell.ImageSourceProperty, "Icon");
             }
+
+            listView.ItemTemplate = cell;
 
             listView.ItemsSource = viewModel.MenuItems;
             if (_home == null)

@@ -6,30 +6,30 @@ This app was created to show how Xamarin.Forms & Custom Renders work as well as 
 
 ## SQLite DB
 #### Makes Table
-MakeId int NOT NULL PRIMARY KEY,
-MakeName varchar(255),
-LastUpdateDate DateTime
-| MakeId | MakeName | LastUpdateDate |
-| ------ | -------- | -------------- |
-| 	 | 	    |		     |
+|   Column    |  Format  |
+|:-----------:|:--------:| 
+| MakeId (pk) |    int   |
+| MakeName | varchar(255) |
+| LastUpdateDate | DateTime |
 
 #### Models Table
 ModelId int NOT NULL PRIMARY KEY,
 ModelName varchar(255),
 MakeId int,
 LastUpdateDate DateTime
-| ModelId | ModelName | MakeId | LastUpdateDate |
-| ------- | --------- | ------ | -------------- |
-| 	  | 	      |	       |                |
-
+|   Column    |  Format  |
+|:-----------:|:--------:| 
+| ModelId (pk) |    int   |
+| ModelName | varchar(255) |
+| MakeId | int |
+| LastUpdateDate | DateTime|
 
 #### Years Table
-YearId int NOT NULL PRIMARY KEY,
-YearName varchar(255),
-LastUpdateDate DateTime
-| YearId | YearName | LastUpdateDate |
-| ------ | -------- | -------------- |
-| 	 | 	    |		     |
+|   Column    |  Format  |
+|:-----------:|:--------:| 
+| YearId (pk) |    int   |
+| YearName | varchar(255) |
+| LastUpdateDate | DateTime |
 
 ## Code Documentation
 

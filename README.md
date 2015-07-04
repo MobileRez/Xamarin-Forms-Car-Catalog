@@ -1,10 +1,10 @@
 # Xamarin-Forms-Car-Catalog
 A demo Xamarin.Forms app for a car catalog that shows off, Custom Renders, SQLite, and more
 
-## About this app
+### About this app
 This app was created to show how Xamarin.Forms & Custom Renders work as well as showcasing how dynamic a Xamarin.Forms app can be made (making less actual play store updates needed when changes happen).
 
-## SQLite DB
+### SQLite DB
 #### Makes Table
 |   Column    |  Format  |
 |:-----------:|:--------:| 
@@ -27,10 +27,10 @@ This app was created to show how Xamarin.Forms & Custom Renders work as well as 
 | YearName | varchar(255) |
 | LastUpdateDate | DateTime |
 
-## Code Documentation
+### Code Documentation
+To be added
 
-
-## TO DO LIST
+### TO DO LIST
 - [ ] Add in Custom rendered navigation for modified navigation behavior
   - [ ] Make behavior of navigation the same across all platforms
   - [ ] Account for changes in navigation when on a phone vers tablet (really adust for phablet support)
@@ -44,7 +44,7 @@ This app was created to show how Xamarin.Forms & Custom Renders work as well as 
 - [ ] Other ideas /features as they come.
 
 
-# Credits to those whos code or experence helped me put this together.
+### Credits to those whos code or experence helped me put this together.
 * [James Montemagno](https://github.com/jamesmontemagno) & [Scott Hanselman](https://github.com/shanselman) for providing the demo app to learn about how to do a good MVVM envrioment [Hanselman.Forms: Hanselman Everywhere](https://github.com/jamesmontemagno/Hanselman.Forms)
 * Jesse Dietrichson
 * Chris van Wyk
